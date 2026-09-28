@@ -4,7 +4,6 @@ public class descontoProduto {
 
     double percentualDesconto =  90;
     double fazendoContas = (percentualDesconto / 100) * precoOriginal;
-    double contaFinal = precoOriginal - fazendoContas;
     String mensagem = "O Playstation 5 custando " + precoOriginal + " e quando aplicamos 10% de desconto, teremos " + fazendoContas;
         System.out.println(mensagem);
     }
